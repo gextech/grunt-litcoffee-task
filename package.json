@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "name": "grunt-litcoffee-task",
+  "scripts": {
+    "prepublish": "node_modules/.bin/grunt"
+  },
+  "dependencies": {
+    "highlight.js": "~8.0.0",
+    "grunt-markdown": "~0.5.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.12",
+    "grunt-bower-task": "~0.3.4",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}
