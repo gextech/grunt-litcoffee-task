@@ -1,0 +1,6 @@
+{
+  "name": "grunt-litcoffee-task",
+  "devDependencies": {
+    "highlight.js": "isagalaev/highlight.js#8.0"
+  }
+}
