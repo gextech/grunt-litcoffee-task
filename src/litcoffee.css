@@ -214,7 +214,7 @@ nav {
   font-size: 1.2em;
 }
 
-.source-tree a.here {
+.source-tree a.active {
   color: #b10018;
   font-weight: bold;
 }
