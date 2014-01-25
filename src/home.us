@@ -1,0 +1,5 @@
+<blockquote>
+  <h1>Package details</h1>
+  <pre><%= JSON.stringify(pkg, null, '  ') %><pre>
+</blockquote>
+<%= script %>

@@ -1,0 +1,220 @@
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* http://kevinburke.bitbucket.org/markdowncss/ */
+body{
+  margin: 0;
+  font-family: Georgia, Palatino, serif;
+  color: #444;
+  line-height: 1;
+  padding: 0;
+}
+h1, h2, h3, h4 {
+  color: #111;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+  margin-bottom: 6px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 21px;
+}
+h5 {
+  font-size: 18px;
+}
+a {
+  color: #0099ff;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff6600;
+}
+a:visited {
+  color: purple;
+}
+ul, ol, dl {
+  padding: 0;
+  margin: 0;
+}
+li {
+  line-height: 24px;
+  list-style-position: inside;
+}
+li ul, li ul {
+  margin-left: 24px;
+}
+p, ul, ol {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+pre {
+  white-space: pre-wrap;
+  margin: 0;
+}
+code {
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  line-height: 1.5;
+  font-size: 13px;
+}
+p code {
+  font-weight: bold;
+  color: #222;
+}
+aside {
+  display: block;
+  float: right;
+  width: 13em;
+}
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+blockquote  cite {
+  font-size:14px;
+  line-height:20px;
+  color:#bfbfbf;
+}
+blockquote cite:before {
+  content: '\2014 \00A0';
+}
+
+blockquote p {
+  color: #666;
+  padding: 0;
+}
+hr {
+  text-align: left;
+  margin: 0 auto 0 0;
+  color: #999;
+}
+pre code {
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+
+/* custom styles */
+
+#wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+
+nav,
+main {
+  display: table-cell;
+  vertical-align: top;
+  padding: 20px;
+}
+
+nav {
+  width: 1%;
+}
+
+.source-doc {
+  background: #F8F8FF;
+}
+
+.source-doc > h1, .source-doc > h2, .source-doc > h3 {
+  clear: both;
+  width: 100%;
+}
+
+.source-doc > h4, .source-doc > h5, .source-doc > h6,
+.source-doc > ul, .source-doc > ol, .source-doc > dl, .source-doc > p {
+  padding-left: 0 !important;
+  clear: left;
+  float: left;
+  width: 40%;
+}
+
+.source-doc > blockquote, .source-doc > pre {
+  margin-bottom: 5px;
+  clear: right;
+  float: right;
+  width: 55%;
+}
+
+.source-doc > p,
+.source-doc > pre code,
+.source-doc > blockquote p {
+  padding: 5px 10px;
+}
+
+.source-doc > blockquote pre {
+  padding: 0 10px;
+}
+
+.source-doc > pre {
+  border-left: 5px solid #eef;
+}
+
+
+.source-tree {
+  border-right: 1px solid #eee;
+}
+
+.source-tree ul,
+.source-tree h2,
+.source-tree h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.source-doc ul,
+.source-tree ul { list-style: none; }
+
+.source-doc ul, .source-doc ol, .source-doc dl,
+.source-tree ul {
+  margin-bottom: 1em;
+}
+
+.source-doc li,
+.source-tree ul ul li {
+  margin-left: 1em;
+}
+
+.source-doc ul > li:before,
+.source-tree ul ul li:before {
+  content: "\2014\00A0";
+}
+
+.source-tree h3,
+.source-tree a {
+  font-style: italic;
+}
+
+.source-tree h3 {
+  color: #808091;
+}
+
+.source-tree a {
+  text-decoration: none;
+  color: #3E3C3C;
+  font-size: 1.2em;
+}
+
+.source-tree a.here {
+  color: #b10018;
+  font-weight: bold;
+}

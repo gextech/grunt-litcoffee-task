@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="<%= style %>" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="source-tree"><%= tree %></nav>
+      <% if (body) { %>
+        <main class="source-doc"><%= body %></main>
+      <% } %>
+    </div>
+  </body>
+</html>
